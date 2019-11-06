@@ -143,8 +143,10 @@ void removeElementCircular(List* l, int v){
         }
         else if (l ->begin == node) l ->begin = node->next;
         else if ( l->end == node) l ->end = node->before;
-        node->before->next = node->next;
-        node->next->before = node->before;
+        else {
+            node->before->next = node->next;
+            node->next->before = node->before;
+        }
         free(node);
     }
 }
