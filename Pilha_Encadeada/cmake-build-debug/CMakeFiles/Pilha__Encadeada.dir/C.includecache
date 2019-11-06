@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jhonatan/Git-Repository/DataStructure-Activity/Pilha_Encadeada/pilhaencadeada.c
+stdio.h
+-
+stdlib.h
+-
+pilhaencadeada.h
+/home/jhonatan/Git-Repository/DataStructure-Activity/Pilha_Encadeada/pilhaencadeada.h
+
+/home/jhonatan/Git-Repository/DataStructure-Activity/Pilha_Encadeada/pilhaencadeada.h
+stdio.h
+-
+
