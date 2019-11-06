@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/dupla.dir/Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.c.o  -o dupla 

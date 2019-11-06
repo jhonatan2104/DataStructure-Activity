@@ -141,8 +141,16 @@ void removeElementCircular(List* l, int v){
             l ->end = NULL;
             l ->begin = NULL;
         }
-        else if (l ->begin == node) l ->begin = node->next;
-        else if ( l->end == node) l ->end = node->before;
+        else if (l ->begin == node) {
+            l ->begin = node->next;
+            l ->begin->before = l->end;
+            l->end->next = l->begin;
+        }
+        else if ( l->end == node) {
+            l ->end = node->before;
+            l->end->next = l->begin;
+            l ->begin->before = l->end;
+        }
         else {
             node->before->next = node->next;
             node->next->before = node->before;
@@ -153,20 +161,20 @@ void removeElementCircular(List* l, int v){
 
 int main() {
     List* l = create_List();
-//    add_begin(l,6);
-//    add_begin(l,5);
-//    add_end(l,7);
+    add_begin(l,6);
+    add_begin(l,5);
+    add_end(l,7);
 //    print_List(l);
 //    remove_value(l, 9);
 //    print_List(l);
 //    Node* n;
 //    n = find(l, 9);
 //    (n != NULL)? printf("%d\n", n->data):printf("NULL\n");
-//    becomeCircular(l);
+    becomeCircular(l);
 //    insertCircular(l, 8);
 //    insertCircular(l, 9);
 //    insertCircular(l, 10);
-//    removeElementCircular(l, 8);
-//    printCircular(l);
+    removeElementCircular(l, 7);
+    printCircular(l);
     return 0;
 }

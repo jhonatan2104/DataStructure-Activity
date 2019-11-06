@@ -124,7 +124,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Fila_Encadeada
+CMAKE_PROJECT_NAME:STATIC=Lista_Duplamente_Encadeada_Circular
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -190,6 +190,12 @@ Fila_Encadeada_BINARY_DIR:STATIC=/home/jhonatan/Git-Repository/DataStructure-Act
 
 //Value Computed by CMake
 Fila_Encadeada_SOURCE_DIR:STATIC=/home/jhonatan/Git-Repository/DataStructure-Activity
+
+//Value Computed by CMake
+Lista_Duplamente_Encadeada_Circular_BINARY_DIR:STATIC=/home/jhonatan/Git-Repository/DataStructure-Activity/cmake-build-debug
+
+//Value Computed by CMake
+Lista_Duplamente_Encadeada_Circular_SOURCE_DIR:STATIC=/home/jhonatan/Git-Repository/DataStructure-Activity
 
 //Path to a program.
 ProcessorCount_cmd_nproc:FILEPATH=/usr/bin/nproc

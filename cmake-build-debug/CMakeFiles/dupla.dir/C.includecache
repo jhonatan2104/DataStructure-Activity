@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jhonatan/Git-Repository/DataStructure-Activity/Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.c
+stdio.h
+-
+stdlib.h
+-
+listaduplaencadeada.h
+/home/jhonatan/Git-Repository/DataStructure-Activity/Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.h
+
+/home/jhonatan/Git-Repository/DataStructure-Activity/Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.h
+

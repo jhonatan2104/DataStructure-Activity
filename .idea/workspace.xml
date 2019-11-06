@@ -12,66 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf91d313-28a0-41ab-b786-7197769897a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fila_Encadeada/filaencadeada.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fila_Encadeada/filaencadeada.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/PilhaEncadeada.dir/C.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/PilhaEncadeada.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/PilhaEncadeada.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/PilhaEncadeada.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/PilhaEncadeada.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/PilhaEncadeada.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/PilhaEncadeada.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/PilhaEncadeada.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/PilhaEncadeada.dir/pilhaencadeada.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/PilhaEncadeada.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/Pilha_Encadeada.dir/C.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/Pilha_Encadeada.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/Pilha_Encadeada.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/Pilha_Encadeada.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/Pilha_Encadeada.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/Pilha_Encadeada.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/Pilha_Encadeada.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/Pilha_Encadeada.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/Pilha_Encadeada.dir/pilhaencadeada.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/Pilha_Encadeada.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/Pilha__Encadeada.dir/C.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/Pilha__Encadeada.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/Pilha__Encadeada.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/Pilha__Encadeada.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/Pilha__Encadeada.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/Pilha__Encadeada.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/Pilha__Encadeada.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/Pilha__Encadeada.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/Pilha__Encadeada.dir/pilhaencadeada.c.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/Pilha__Encadeada.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/PilhaEncadeada" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/Pilha_Encadeada" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/Pilha_Encadeada.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/Pilha__Encadeada" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/pilhaencadeada.c" beforeDir="false" afterPath="$PROJECT_DIR$/Pilha_Encadeada/pilhaencadeada.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pilha_Encadeada/pilhaencadeada.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pilha_Encadeada/pilhaencadeada.h" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -141,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573009659472</updated>
       <workItem from="1573009661035" duration="2521000" />
-      <workItem from="1573037125937" duration="4499000" />
+      <workItem from="1573037125937" duration="5517000" />
     </task>
     <servers />
   </component>

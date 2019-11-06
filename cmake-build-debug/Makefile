@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Fila_Encadeada
+# Target rules for targets named dupla
 
 # Build rule for target.
-Fila_Encadeada: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Fila_Encadeada
-.PHONY : Fila_Encadeada
+dupla: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dupla
+.PHONY : dupla
 
 # fast build rule for target.
-Fila_Encadeada/fast:
-	$(MAKE) -f CMakeFiles/Fila_Encadeada.dir/build.make CMakeFiles/Fila_Encadeada.dir/build
-.PHONY : Fila_Encadeada/fast
+dupla/fast:
+	$(MAKE) -f CMakeFiles/dupla.dir/build.make CMakeFiles/dupla.dir/build
+.PHONY : dupla/fast
 
-Fila_Encadeada/filaencadeada.o: Fila_Encadeada/filaencadeada.c.o
+Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.o: Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.c.o
 
-.PHONY : Fila_Encadeada/filaencadeada.o
+.PHONY : Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.o
 
 # target to build an object file
-Fila_Encadeada/filaencadeada.c.o:
-	$(MAKE) -f CMakeFiles/Fila_Encadeada.dir/build.make CMakeFiles/Fila_Encadeada.dir/Fila_Encadeada/filaencadeada.c.o
-.PHONY : Fila_Encadeada/filaencadeada.c.o
+Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.c.o:
+	$(MAKE) -f CMakeFiles/dupla.dir/build.make CMakeFiles/dupla.dir/Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.c.o
+.PHONY : Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.c.o
 
-Fila_Encadeada/filaencadeada.i: Fila_Encadeada/filaencadeada.c.i
+Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.i: Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.c.i
 
-.PHONY : Fila_Encadeada/filaencadeada.i
+.PHONY : Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.i
 
 # target to preprocess a source file
-Fila_Encadeada/filaencadeada.c.i:
-	$(MAKE) -f CMakeFiles/Fila_Encadeada.dir/build.make CMakeFiles/Fila_Encadeada.dir/Fila_Encadeada/filaencadeada.c.i
-.PHONY : Fila_Encadeada/filaencadeada.c.i
+Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.c.i:
+	$(MAKE) -f CMakeFiles/dupla.dir/build.make CMakeFiles/dupla.dir/Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.c.i
+.PHONY : Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.c.i
 
-Fila_Encadeada/filaencadeada.s: Fila_Encadeada/filaencadeada.c.s
+Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.s: Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.c.s
 
-.PHONY : Fila_Encadeada/filaencadeada.s
+.PHONY : Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.s
 
 # target to generate assembly for a file
-Fila_Encadeada/filaencadeada.c.s:
-	$(MAKE) -f CMakeFiles/Fila_Encadeada.dir/build.make CMakeFiles/Fila_Encadeada.dir/Fila_Encadeada/filaencadeada.c.s
-.PHONY : Fila_Encadeada/filaencadeada.c.s
+Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.c.s:
+	$(MAKE) -f CMakeFiles/dupla.dir/build.make CMakeFiles/dupla.dir/Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.c.s
+.PHONY : Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.c.s
 
 # Help Target
 help:
@@ -157,11 +157,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Fila_Encadeada"
+	@echo "... dupla"
 	@echo "... edit_cache"
-	@echo "... Fila_Encadeada/filaencadeada.o"
-	@echo "... Fila_Encadeada/filaencadeada.i"
-	@echo "... Fila_Encadeada/filaencadeada.s"
+	@echo "... Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.o"
+	@echo "... Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.i"
+	@echo "... Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.s"
 .PHONY : help
 
 
