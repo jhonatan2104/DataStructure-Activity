@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/Fila_Encadeada.dir/Fila_Encadeada/filaencadeada.c.o  -o Fila_Encadeada 

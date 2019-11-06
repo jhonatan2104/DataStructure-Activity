@@ -20,6 +20,7 @@ struct stack{
 
 Node* createNode(int v);
 Stack* createStack();
+void printStack(Stack* s);
 void push(Stack* s, int v);
 int pop(Stack* s);
 void clear(Stack* s);

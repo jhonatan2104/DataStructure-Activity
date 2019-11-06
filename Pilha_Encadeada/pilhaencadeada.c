@@ -16,6 +16,14 @@ Stack* createStack(){
     s->top=NULL;
     return s;
 }
+void printStack(Stack* s){
+    Node* aux = s->top;
+    while (aux != NULL){
+        printf("%d ", aux->data);
+        aux = aux ->next;
+    }
+    printf("\n");
+}
 void push(Stack* s, int v){
     Node* new = createNode(v);
     new ->next = s->top;
@@ -29,8 +37,24 @@ int pop(Stack* s){
         free(aux);
         return r;
     }
+    return -1;
+}
+void clear(Stack* s){
+    while (s->top != NULL){
+        Node* aux = s->top;
+        s ->top = aux->next;
+        free(aux);
+    }
 }
 
+
 int main(){
+    Stack* stack = createStack();
+    push(stack, 5);
+    push(stack, 4);
+    push(stack, 3);
+//    pop(stack);
+//    clear(stack);
+    printStack(stack);
     return 0;
 }

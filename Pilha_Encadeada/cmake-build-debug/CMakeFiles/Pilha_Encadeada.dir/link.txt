@@ -1,1 +1,0 @@
-/usr/bin/cc -g   CMakeFiles/Pilha_Encadeada.dir/pilhaencadeada.c.o  -o Pilha_Encadeada 
