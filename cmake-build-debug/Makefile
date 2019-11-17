@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named dupla
+# Target rules for targets named Matriz
 
 # Build rule for target.
-dupla: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 dupla
-.PHONY : dupla
+Matriz: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Matriz
+.PHONY : Matriz
 
 # fast build rule for target.
-dupla/fast:
-	$(MAKE) -f CMakeFiles/dupla.dir/build.make CMakeFiles/dupla.dir/build
-.PHONY : dupla/fast
+Matriz/fast:
+	$(MAKE) -f CMakeFiles/Matriz.dir/build.make CMakeFiles/Matriz.dir/build
+.PHONY : Matriz/fast
 
-Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.o: Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.c.o
+Matriz_Esparsa/matrizEsparsa.o: Matriz_Esparsa/matrizEsparsa.c.o
 
-.PHONY : Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.o
+.PHONY : Matriz_Esparsa/matrizEsparsa.o
 
 # target to build an object file
-Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.c.o:
-	$(MAKE) -f CMakeFiles/dupla.dir/build.make CMakeFiles/dupla.dir/Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.c.o
-.PHONY : Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.c.o
+Matriz_Esparsa/matrizEsparsa.c.o:
+	$(MAKE) -f CMakeFiles/Matriz.dir/build.make CMakeFiles/Matriz.dir/Matriz_Esparsa/matrizEsparsa.c.o
+.PHONY : Matriz_Esparsa/matrizEsparsa.c.o
 
-Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.i: Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.c.i
+Matriz_Esparsa/matrizEsparsa.i: Matriz_Esparsa/matrizEsparsa.c.i
 
-.PHONY : Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.i
+.PHONY : Matriz_Esparsa/matrizEsparsa.i
 
 # target to preprocess a source file
-Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.c.i:
-	$(MAKE) -f CMakeFiles/dupla.dir/build.make CMakeFiles/dupla.dir/Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.c.i
-.PHONY : Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.c.i
+Matriz_Esparsa/matrizEsparsa.c.i:
+	$(MAKE) -f CMakeFiles/Matriz.dir/build.make CMakeFiles/Matriz.dir/Matriz_Esparsa/matrizEsparsa.c.i
+.PHONY : Matriz_Esparsa/matrizEsparsa.c.i
 
-Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.s: Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.c.s
+Matriz_Esparsa/matrizEsparsa.s: Matriz_Esparsa/matrizEsparsa.c.s
 
-.PHONY : Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.s
+.PHONY : Matriz_Esparsa/matrizEsparsa.s
 
 # target to generate assembly for a file
-Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.c.s:
-	$(MAKE) -f CMakeFiles/dupla.dir/build.make CMakeFiles/dupla.dir/Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.c.s
-.PHONY : Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.c.s
+Matriz_Esparsa/matrizEsparsa.c.s:
+	$(MAKE) -f CMakeFiles/Matriz.dir/build.make CMakeFiles/Matriz.dir/Matriz_Esparsa/matrizEsparsa.c.s
+.PHONY : Matriz_Esparsa/matrizEsparsa.c.s
 
 # Help Target
 help:
@@ -157,11 +157,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... dupla"
+	@echo "... Matriz"
 	@echo "... edit_cache"
-	@echo "... Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.o"
-	@echo "... Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.i"
-	@echo "... Lista_Duplamente_Encadeada_Circular/listaduplaencadeada.s"
+	@echo "... Matriz_Esparsa/matrizEsparsa.o"
+	@echo "... Matriz_Esparsa/matrizEsparsa.i"
+	@echo "... Matriz_Esparsa/matrizEsparsa.s"
 .PHONY : help
 
 

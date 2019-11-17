@@ -124,7 +124,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Lista_Duplamente_Encadeada_Circular
+CMAKE_PROJECT_NAME:STATIC=Matriz_Esparsa
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -196,6 +196,18 @@ Lista_Duplamente_Encadeada_Circular_BINARY_DIR:STATIC=/home/jhonatan/Git-Reposit
 
 //Value Computed by CMake
 Lista_Duplamente_Encadeada_Circular_SOURCE_DIR:STATIC=/home/jhonatan/Git-Repository/DataStructure-Activity
+
+//Value Computed by CMake
+Mat_BINARY_DIR:STATIC=/home/jhonatan/Git-Repository/DataStructure-Activity/cmake-build-debug
+
+//Value Computed by CMake
+Mat_SOURCE_DIR:STATIC=/home/jhonatan/Git-Repository/DataStructure-Activity
+
+//Value Computed by CMake
+Matriz_Esparsa_BINARY_DIR:STATIC=/home/jhonatan/Git-Repository/DataStructure-Activity/cmake-build-debug
+
+//Value Computed by CMake
+Matriz_Esparsa_SOURCE_DIR:STATIC=/home/jhonatan/Git-Repository/DataStructure-Activity
 
 //Path to a program.
 ProcessorCount_cmd_nproc:FILEPATH=/usr/bin/nproc

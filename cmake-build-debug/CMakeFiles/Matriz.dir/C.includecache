@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jhonatan/Git-Repository/DataStructure-Activity/Matriz_Esparsa/matrizEsparsa.c
+matrizEsparsa.h
+/home/jhonatan/Git-Repository/DataStructure-Activity/Matriz_Esparsa/matrizEsparsa.h
+
+/home/jhonatan/Git-Repository/DataStructure-Activity/Matriz_Esparsa/matrizEsparsa.h
+stdlib.h
+-
+stdio.h
+-
+

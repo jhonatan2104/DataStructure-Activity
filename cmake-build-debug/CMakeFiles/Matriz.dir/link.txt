@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/Matriz.dir/Matriz_Esparsa/matrizEsparsa.c.o  -o Matriz 
