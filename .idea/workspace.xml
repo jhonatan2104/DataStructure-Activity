@@ -12,16 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf91d313-28a0-41ab-b786-7197769897a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Matriz_Esparsa/matrizEsparsa.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Matriz_Esparsa/matrizEsparsa.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matriz_Esparsa/matrizEsparsa.c" beforeDir="false" afterPath="$PROJECT_DIR$/Matriz_Esparsa/matrizEsparsa.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matriz_Esparsa/matrizEsparsa.h" beforeDir="false" afterPath="$PROJECT_DIR$/Matriz_Esparsa/matrizEsparsa.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Matriz" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Matriz" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,6 +92,8 @@
       <workItem from="1573563800269" duration="2241000" />
       <workItem from="1573615408311" duration="605000" />
       <workItem from="1574004796119" duration="6103000" />
+      <workItem from="1574115088294" duration="599000" />
+      <workItem from="1574130795463" duration="2043000" />
     </task>
     <servers />
   </component>

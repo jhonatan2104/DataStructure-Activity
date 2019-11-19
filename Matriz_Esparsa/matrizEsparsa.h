@@ -20,6 +20,7 @@ struct matriz{
     Node** array;
     int line;
     int columns;
+    int df;
 };
 
 Node* createNode(int value, int pos){
@@ -61,6 +62,31 @@ int addValue(Matriz* matriz, int value, int line, int columns){
     }
     return 0;
 }
+int get(Matriz* m, int line, int column){
+    if (line < 0 || line >= m -> line || column < 0 || column >= m->columns) return -1;
+    Node* aux = m->array[line];
+    while (aux != NULL && aux->pos < column) aux = aux->next;
+    if (aux != NULL && aux->pos == column) return aux->v;
+    else return m->df;
+}
+
+int delete(Matriz* m, int line, int columns){
+    if (line < 0 || line >= m->line || columns < 0 || columns >= m-> columns) return -1;
+    Node* before = NULL;
+    Node* aux = m -> array[line];
+    while (aux != NULL && aux -> pos < columns){
+        before = aux;
+        aux = aux ->next;
+    }
+    if ( aux != NULL && aux -> pos == columns){
+        if (before == NULL) m->array[line] = aux -> next;
+        else before -> next = aux ->next;
+        int value = aux->v;
+        free(aux);
+        return value;
+    }
+    return m ->df;
+}
 
 void printMatrix(Matriz* matriz){
     for (int i = 0; i < matriz->line; ++i) {
@@ -70,7 +96,7 @@ void printMatrix(Matriz* matriz){
                 printf("%d ", aux->v);
                 aux = aux->next;
             }
-            else printf("0 ");
+            else printf("%d ", matriz->df);
         }
         printf("\n");
     }
