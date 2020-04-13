@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jhonatan/Git-Repository/DataStructure-Activity/Arvore_Binaria/Tree_pptx/Tree.c
+Tree.h
+/home/jhonatan/Git-Repository/DataStructure-Activity/Arvore_Binaria/Tree_pptx/Tree.h
+
+/home/jhonatan/Git-Repository/DataStructure-Activity/Arvore_Binaria/Tree_pptx/Tree.h
+stdlib.h
+-
+stdio.h
+-
+

@@ -102,5 +102,30 @@ void printMatrix(Matriz* matriz){
     }
     printf("\n");
 }
+int addSorted(Matriz* m, int value, int line){
+    if (line < 0 || line >= m->line) return -1;
+    Node* aux = m->array[line];
+    Node* befor = NULL;
+    while (aux != NULL && aux->v < value){
+        befor = aux;
+        aux = aux -> next;
+    }
+    Node* new = (Node*) malloc(sizeof(Node));
+    new ->v = value;
+    new -> next = NULL;
+    if (befor == NULL){
+        new ->pos = 0;
+        m ->array[line] = new;
+        if (aux != NULL) {
+            new ->next = aux;
+            aux ->pos++;
+        }
+    } else {
+        befor ->next = new;
+        new ->next = aux;
+        new -> pos = befor->pos + 1;
+    }
+    return 0;
+}
 
 #endif //MATRIZ_ESPARSA_MATRIZESPARSA_H

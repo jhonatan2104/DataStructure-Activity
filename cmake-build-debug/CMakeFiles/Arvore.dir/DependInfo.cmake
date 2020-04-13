@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/jhonatan/Git-Repository/DataStructure-Activity/Arvore_Binaria/Tree.c" "/home/jhonatan/Git-Repository/DataStructure-Activity/cmake-build-debug/CMakeFiles/Matriz.dir/Arvore_Binaria/Tree.c.o"
-  "/home/jhonatan/Git-Repository/DataStructure-Activity/Matriz_Esparsa/matrizEsparsa.c" "/home/jhonatan/Git-Repository/DataStructure-Activity/cmake-build-debug/CMakeFiles/Matriz.dir/Matriz_Esparsa/matrizEsparsa.c.o"
+  "/home/jhonatan/Git-Repository/DataStructure-Activity/Arvore_Binaria/Tree_pptx/Tree.c" "/home/jhonatan/Git-Repository/DataStructure-Activity/cmake-build-debug/CMakeFiles/Arvore.dir/Arvore_Binaria/Tree_pptx/Tree.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

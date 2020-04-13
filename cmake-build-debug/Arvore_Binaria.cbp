@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6"/>
 	<Project>
-		<Option title="Matriz_Esparsa"/>
+		<Option title="Arvore_Binaria"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
@@ -27,8 +27,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jhonatan/Git-Repository/DataStructure-Activity/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Matriz">
-				<Option output="/home/jhonatan/Git-Repository/DataStructure-Activity/cmake-build-debug/Matriz" prefix_auto="0" extension_auto="0"/>
+			<Target title="Arvore">
+				<Option output="/home/jhonatan/Git-Repository/DataStructure-Activity/cmake-build-debug/Arvore" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/jhonatan/Git-Repository/DataStructure-Activity/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -41,14 +41,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/jhonatan/Git-Repository/DataStructure-Activity/cmake-build-debug/Makefile&quot;  VERBOSE=1 Matriz"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jhonatan/Git-Repository/DataStructure-Activity/cmake-build-debug/Makefile&quot;  VERBOSE=1 Arvore"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jhonatan/Git-Repository/DataStructure-Activity/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/jhonatan/Git-Repository/DataStructure-Activity/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jhonatan/Git-Repository/DataStructure-Activity/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Matriz/fast">
-				<Option output="/home/jhonatan/Git-Repository/DataStructure-Activity/cmake-build-debug/Matriz" prefix_auto="0" extension_auto="0"/>
+			<Target title="Arvore/fast">
+				<Option output="/home/jhonatan/Git-Repository/DataStructure-Activity/cmake-build-debug/Arvore" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/jhonatan/Git-Repository/DataStructure-Activity/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -61,7 +61,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/jhonatan/Git-Repository/DataStructure-Activity/cmake-build-debug/Makefile&quot;  VERBOSE=1 Matriz/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jhonatan/Git-Repository/DataStructure-Activity/cmake-build-debug/Makefile&quot;  VERBOSE=1 Arvore/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jhonatan/Git-Repository/DataStructure-Activity/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/jhonatan/Git-Repository/DataStructure-Activity/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jhonatan/Git-Repository/DataStructure-Activity/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -78,17 +78,11 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/jhonatan/Git-Repository/DataStructure-Activity/Arvore_Binaria/Tree.c">
-			<Option target="Matriz"/>
+		<Unit filename="/home/jhonatan/Git-Repository/DataStructure-Activity/Arvore_Binaria/Tree_pptx/Tree.c">
+			<Option target="Arvore"/>
 		</Unit>
-		<Unit filename="/home/jhonatan/Git-Repository/DataStructure-Activity/Arvore_Binaria/Tree.h">
-			<Option target="Matriz"/>
-		</Unit>
-		<Unit filename="/home/jhonatan/Git-Repository/DataStructure-Activity/Matriz_Esparsa/matrizEsparsa.c">
-			<Option target="Matriz"/>
-		</Unit>
-		<Unit filename="/home/jhonatan/Git-Repository/DataStructure-Activity/Matriz_Esparsa/matrizEsparsa.h">
-			<Option target="Matriz"/>
+		<Unit filename="/home/jhonatan/Git-Repository/DataStructure-Activity/Arvore_Binaria/Tree_pptx/Tree.h">
+			<Option target="Arvore"/>
 		</Unit>
 		<Unit filename="/home/jhonatan/Git-Repository/DataStructure-Activity/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

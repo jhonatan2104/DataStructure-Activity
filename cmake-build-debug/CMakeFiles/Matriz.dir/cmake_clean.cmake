@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Matriz.dir/Arvore_Binaria/Tree.c.o"
   "CMakeFiles/Matriz.dir/Matriz_Esparsa/matrizEsparsa.c.o"
   "Matriz"
   "Matriz.pdb"

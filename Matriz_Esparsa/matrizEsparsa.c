@@ -11,7 +11,8 @@ int main(){
     addValue(m,8, 2, 0);
     addValue(m,8, 3, 0);
     printMatrix(m);
-    delete(m, 2, 3);
+//    delete(m, 2, 3);
+    addSorted(m,7, 3);
     printMatrix(m);
     printf("%d %d\n", get(m, 2,3), get(m, 3, 1));
     return 0;

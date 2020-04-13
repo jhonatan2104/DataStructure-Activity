@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/Matriz.dir/Matriz_Esparsa/matrizEsparsa.c.o  -o Matriz 
+/usr/bin/cc -g   CMakeFiles/Matriz.dir/Matriz_Esparsa/matrizEsparsa.c.o CMakeFiles/Matriz.dir/Arvore_Binaria/Tree.c.o  -o Matriz 

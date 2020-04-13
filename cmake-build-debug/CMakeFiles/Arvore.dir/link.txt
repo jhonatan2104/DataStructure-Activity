@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/Arvore.dir/Arvore_Binaria/Tree_pptx/Tree.c.o  -o Arvore 
